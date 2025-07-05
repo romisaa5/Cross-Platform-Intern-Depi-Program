@@ -7,9 +7,9 @@ void main() {
   int num = 65;
   if (num >= 90) {
     print('excellent');
-  } else if (num >= 75 && num < 89) {
+  } else if (num >= 75 && num <= 89) {
     print('good');
-  } else if (num >= 50 && num < 74) {
+  } else if (num >= 50 && num <= 74) {
     print('average');
   } else if (num < 50) {
     print('Fail');
