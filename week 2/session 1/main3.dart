@@ -2,7 +2,7 @@
 "Excellent" if the number is 90 or above
 "Good" if it is 75–89
 "Average" if it is 50–74
-"Fail" if below 50*/
+"Fail" if beloc 50*/
 void main() {
   int num = 65;
   if (num >= 90) {
