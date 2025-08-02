@@ -25,9 +25,9 @@ class _StarRateState extends State<StarRate> {
           value = v;
         });
       },
-      starBuilder: (index, color) => Icon(Icons.star, color: color, size: 18),
+      starBuilder: (index, color) => Icon(Icons.star, color: color, size: 16),
       starCount: 5,
-      starSize: 18,
+      starSize: 16,
       valueLabelRadius: 10,
       maxValue: 5,
       starSpacing: 2,
