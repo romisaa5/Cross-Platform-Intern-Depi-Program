@@ -50,7 +50,54 @@ At the end of the session, we were given a **task** to implement everything we l
 
 ## 📍 Session 2
 
-> 🔜 *To be added after the second session...*
+In the **second session** of Week 6, we focused on making our Flutter apps more structured, interactive, and easier to maintain:
+
+---
+
+## ✏️ Working with `TextFormField`
+
+We learned how to:
+- Use `TextFormField` to take user input.
+- Attach a `TextEditingController` to read and manage the text.
+- Add **validation** to ensure inputs are correct before submitting (e.g., required fields, email format).
+
+---
+
+## 🔁 Orientation Handling
+
+We explored how to:
+- Detect device **orientation** using `MediaQuery.of(context).orientation`.
+- Build responsive layouts that adapt to **portrait** or **landscape** modes dynamically.
+- Change UI elements (like layout direction, spacing, or width) based on orientation.
+
+---
+
+## 🖼️ Displaying Images from Assets
+
+We practiced how to:
+- Add and organize images inside the `assets/` folder.
+- Configure them in `pubspec.yaml`.
+- Display them using `Image.asset()` and apply `fit` properties like `BoxFit.cover`, `BoxFit.fill`, and `BoxFit.contain`.
+
+---
+
+## 🗂️ Project Structure & Custom Widgets
+
+We discussed:
+- How to organize our project files into folders (`screens/`, `widgets/`, `theme/`...etc).
+- The importance of creating **custom widgets** to reuse code and make it cleaner and more readable.
+- Splitting UI components into smaller parts for better maintenance.
+
+---
+
+## 📝 Task
+
+At the end of the session, we were asked to build a screen that includes:
+- A `TextFormField` with validation and a controller.
+- A responsive layout that changes with orientation.
+- An image from assets.
+- Code that is refactored using custom widgets and a clean folder structure.
+  
 
 ---
 
@@ -60,5 +107,6 @@ This week started with deeper UI customization in Flutter. We learned how to:
 - Use themes for app-wide styling
 - Add external functionality with packages
 - Create layered designs using the Stack widget
+- Structure our projects using custom widgets and clean folders
 
 > 🚀 More to come in the next session!
