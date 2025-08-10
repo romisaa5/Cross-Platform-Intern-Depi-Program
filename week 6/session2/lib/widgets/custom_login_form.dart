@@ -1,4 +1,3 @@
-
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
@@ -97,6 +96,30 @@ class _CustomLoginFormState extends State<CustomLoginForm> {
                   ),
                 ],
               ),
+              RichText(text: TextSpan(children: [
+                TextSpan(
+                  text: 'By continuing, you agree to our ',
+                  style: Styles.textStyle12,
+                ),
+                TextSpan(
+                  text: 'Terms of Service',
+                  style: Styles.textStyle12.copyWith(
+                    color: AppColor.kPrimaryColor,
+                    decoration: TextDecoration.underline,
+                  ),
+                ),
+                TextSpan(
+                  text: ' and ',
+                  style: Styles.textStyle12,
+                ),
+                TextSpan(
+                  text: 'Privacy Policy',
+                  style: Styles.textStyle12.copyWith(
+                    color: AppColor.kPrimaryColor,
+                    decoration: TextDecoration.underline,
+                  ),
+                ),
+              ])),
               CustomButton(
                 onTap: () {
                   if (_formKey.currentState!.validate()) {

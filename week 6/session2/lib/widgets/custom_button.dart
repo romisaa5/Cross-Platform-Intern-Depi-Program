@@ -13,7 +13,6 @@ class CustomButton extends StatelessWidget {
     this.image,
     this.isborder = true,
   });
-
   final String text;
   final Color? textcolor;
   final Color color;
@@ -26,7 +25,6 @@ class CustomButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final orientation = MediaQuery.of(context).orientation;
     final isPortrait = orientation == Orientation.portrait;
-
     return GestureDetector(
       onTap: onTap,
       child: Container(
