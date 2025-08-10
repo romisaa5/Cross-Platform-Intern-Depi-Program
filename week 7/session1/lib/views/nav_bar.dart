@@ -20,7 +20,7 @@ class _NavBarState extends State<NavBar> {
     HomeView(),
     StoreView(),
     FavoritesView(),
-    ProfieView(),
+    ProfileView(),
   ];
 
   @override
