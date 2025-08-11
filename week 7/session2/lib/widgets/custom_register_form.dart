@@ -27,6 +27,16 @@ class _CustomRegisterFormState extends State<CustomRegisterForm> {
   final TextEditingController confirmPasswordController =
       TextEditingController();
   @override
+  void dispose() {
+    nameController.dispose();
+    emailController.dispose();
+    phoneController.dispose();
+    passwordController.dispose();
+    confirmPasswordController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       padding: const EdgeInsets.all(16),

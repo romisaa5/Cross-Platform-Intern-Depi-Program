@@ -103,6 +103,7 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: 100.h,
                 child: ListView.builder(
+                  itemCount: 10,
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
                     return Padding(
@@ -124,6 +125,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               GridView.builder(
+                itemCount: 10,
                 physics: const NeverScrollableScrollPhysics(),
                 shrinkWrap: true,
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
