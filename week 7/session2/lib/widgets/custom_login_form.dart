@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:session2/helper/validation_methods.dart';
+import 'package:session2/utils/validation_methods.dart';
 import 'package:session2/screens/forget_password.dart';
 import 'package:session2/screens/home_screen.dart';
 import 'package:session2/screens/register_screen.dart';
-import 'package:session2/theme/app_color.dart';
-import 'package:session2/theme/text_styles.dart';
+import 'package:session2/utils/app_color.dart';
+import 'package:session2/utils/text_styles.dart';
 import 'package:session2/widgets/custom_button.dart';
 import 'package:session2/widgets/custom_divider.dart';
 import 'package:session2/widgets/custom_facebook_gmail.dart';

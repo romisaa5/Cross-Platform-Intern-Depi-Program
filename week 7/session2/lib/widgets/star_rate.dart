@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_stars/flutter_rating_stars.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:session2/theme/app_color.dart';
+import 'package:session2/utils/app_color.dart';
 
 class StarRate extends StatefulWidget {
   const StarRate({super.key});
