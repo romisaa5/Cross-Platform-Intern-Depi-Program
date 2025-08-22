@@ -48,3 +48,6 @@ lib/
 │ │ ├── widgets/
 ```
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/a2e15856-e19e-4c88-8107-f2d446ad23ac" controls width="480" style="border-radius: 12px;"></video>
+</div>
