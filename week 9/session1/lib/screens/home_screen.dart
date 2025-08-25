@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:session1/providers/cart_provider.dart';
 import 'package:session1/screens/cart_screen.dart';
-import 'package:session1/product_item.dart';
+import 'package:session1/widgets/product_item.dart';
 import '../../models/product.dart';
 
 class HomeScreen extends StatelessWidget {
