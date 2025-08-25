@@ -1,16 +1,53 @@
-# task
+# 📱 Social Media UI App  
+ 
+The main purpose is to practice **building clean and responsive UIs** in Flutter with reusable widgets.  
+It’s **UI only** – no state management or backend is implemented yet.  
 
-A new Flutter project.
+---
 
-## Getting Started
+## ✨ Features  
 
-This project is a starting point for a Flutter application.
+- 🏠 **Home Feed**  
+  - Post cards similar to Facebook posts  
+  - Post box for creating a new post (UI only)  
+  - Stories section with circle avatars  
 
-A few resources to get you started if this is your first Flutter project:
+- 👤 **Profile Screen**  
+  - Cover photo & profile picture  
+  - Tabs: Posts - About - Friends  
+  - User posts section  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔔 **Header Bar**  
+  - App logo  
+  - Search, Notifications, and Messages icons  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Built With  
+
+- **Flutter**  
+- **Dart** 
+- **flutter_screenutil** (for responsive UI)  
+- **Custom reusable widgets** (PostCard, ProfileHeader, CircleAvatar, etc.)  
+
+---
+
+## 📂 Folder Structure  
+```
+lib/
+│── core/
+│ ├── widgets/ # reusable UI components
+│── features/
+│ ├── home/
+│ │ ├── ui/
+│ │ │ ├── views/
+│ │ │ ├── widgets/
+│ ├── profile/
+│ ├── ui/
+│ │ ├── views/
+│ │ ├── widgets/
+```
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/a2e15856-e19e-4c88-8107-f2d446ad23ac" controls width="480" style="border-radius: 12px;"></video>
+</div>
